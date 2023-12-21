@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "SceneMaster")
+    (date "2023-12-21")
+    (rev "0.1")
+    (company "AntTronics")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" power)
@@ -5379,6 +5386,9 @@
   (gr_arc (start 100 66) (mid 100.292893 65.292893) (end 101 65) (layer "Edge.Cuts") (width 0.1) (tstamp 7754ffc2-5023-4eb6-a370-2e220b339d8f))
   (gr_line (start 101.5 95) (end 148.5 95) (layer "Edge.Cuts") (width 0.1) (tstamp d8a2c29e-f452-490d-91e6-a174c0a76733))
   (gr_arc (start 101.5 95) (mid 100.43934 94.56066) (end 100 93.5) (layer "Edge.Cuts") (width 0.1) (tstamp fd79156d-ded5-45de-acd8-cf9a2ee678f0))
+  (gr_text "SPDX-FileCopyrightText: 2023 Antonios Vamporakis <ant@anttronics.com>\nSPDX-License-Identifier: CERN-OHL-W-2.0+\n\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\n\nSource location: https://github.com/anttronics/SolarTrackerSensor\n\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the SceneMaster or other product you make using\nthis documentation.\n" (at 236 177) (layer "F.Cu") (tstamp 8d9c9fe1-71c5-4c15-bbfa-120127e7cd60)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+  )
   (gr_text "SceneMaster" (at 102 68.5 180) (layer "B.SilkS") (tstamp 15e1ff04-3da1-4fde-b2fd-646bf3c4bcf6)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left mirror))
   )

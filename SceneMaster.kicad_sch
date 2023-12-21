@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "SceneMaster")
+    (date "2023-12-21")
+    (rev "0.1")
+    (company "AntTronics")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -3644,6 +3651,11 @@
     (uuid ff7b3e67-ed96-491f-a139-2a8380de39f2)
   )
 
+  (text "SPDX-FileCopyrightText: 2023 Antonios Vamporakis <ant@anttronics.com>\nSPDX-License-Identifier: CERN-OHL-W-2.0+\n\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\n\nSource location: https://github.com/anttronics/SolarTrackerSensor\n\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the SceneMaster or other product you make using\nthis documentation.\n"
+    (at 236.22 186.69 0)
+    (effects (font (size 0.8 0.8)) (justify left bottom))
+    (uuid 0a938a27-1c05-4e4e-b796-22e009abeed7)
+  )
   (text "Connectors" (at 217.17 19.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f706025-ebfc-468c-95c6-ae4e9ec60d51)
